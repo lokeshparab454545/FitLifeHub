@@ -1,24 +1,38 @@
-import logo from './logo.svg';
+
 import './App.css';
+import React, { useEffect, useState } from 'react'
+import Features from './components/Features/Features';
+import Footer from './components/Footer/Footer';
+import Header from './components/Header/Header';
+import Hero from './components/Hero/hero';
+import Exercise from './components/Learn/Exercise';
+import SearchExercise from './components/Learn/SearchExercise';
+import Price from './components/Pricing/Price';
+import Services from './components/Services/Services';
+import Testinomial from './components/Testinomials/Testinomial';
+import Trainer from './components/Trainer/Trainer';
+import Aos from 'aos';
 
 function App() {
+
+  useEffect(() => {
+    Aos.init();
+  }, []);
+  const [exercises, setExercises] = useState([]);
+  const [bodyPart, setbodyPart] = useState('all');
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Header />
+      <Hero />
+      <Features />
+      <SearchExercise setExercises={setExercises} bodyPart={bodyPart} setBodyPart={setbodyPart} />
+      <Exercise exercises={exercises} setExercises={setExercises} bodyPart={bodyPart} />
+      <Services />
+      <Price />
+      <Trainer />
+      <Testinomial />
+      <Footer />
+    </>
   );
 }
 

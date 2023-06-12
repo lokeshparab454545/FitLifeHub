@@ -1,0 +1,100 @@
+.services {
+    background-color: black;
+    ;
+}
+
+.services-title {
+    text-align: center;
+}
+
+.services-title h2 {
+    color: #fff;
+    text-align: center;
+    font-size: 2.2rem;
+    margin-bottom: 50px;
+}
+
+.services-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.ser-card {
+    position: relative;
+    padding: 15px;
+    width: 340px;
+    height: 170px;
+    border-radius: 12px;
+    box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+}
+
+.services-logo {
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding: 12px;
+    border-radius: 50%;
+    width: 65px;
+    position: absolute;
+    top: -30px;
+    left: 125px;
+}
+
+.services-logo img {
+    width: 100%;
+}
+
+.ser-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.services-content {
+    margin-top: 40px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.services-content p {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+
+.services-learn p {
+    font-size: 1rem;
+    border-bottom: 2px solid #fff;
+    width: 78px;
+}
+
+.services-learn p:hover {
+    transition: 0.3s all ease;
+    font-size: 1.1rem;
+    width: 100px;
+}
+
+@media (max-width: 1140px) {
+    .services-logo {
+        left: 85px;
+    }
+
+    .services-title h2 {
+        font-size: 2rem;
+    }
+
+}
+
+@media (max-width:820px) {
+    .services-cards {
+        flex-wrap: wrap;
+
+    }
+
+    .services-logo {
+        left: 135px;
+    }
+}

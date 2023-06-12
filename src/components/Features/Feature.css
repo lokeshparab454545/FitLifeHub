@@ -1,0 +1,140 @@
+:root {
+    --primary-color: #ff745c;
+    --heading-color: #132742;
+    --bg-color: #fef6f2;
+    --card-color: #f5a387;
+}
+
+.feature {
+    background-color: var(--bg-color);
+    width: 100%;
+}
+
+.feature-heading h2 {
+    text-align: center;
+    color: var(--heading-color);
+    font-size: 2.2rem;
+}
+
+.feature-part {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.feature-img img {
+    width: 540px;
+}
+
+.feature-card {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.card {
+    padding: 15px;
+    width: 90px;
+    height: 90px;
+    color: white;
+    text-align: center;
+    border-radius: 6px;
+}
+
+.card:hover {
+    transition: 0.3s all ease;
+    transform: translateY(-10px);
+}
+
+.card h3 {
+    font-size: 1.8rem;
+}
+
+.card p {
+    font-size: 1rem;
+}
+
+.feature-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.grid i {
+    padding: 10px;
+    border-radius: 50%;
+    color: white;
+    font-size: 1.4rem;
+}
+
+.grid h3 {
+    margin-top: 10px;
+    font-size: 1.4rem;
+}
+
+@media (max-width: 1140px) {
+    .feature-heading h2 {
+        font-size: 2rem;
+    }
+
+
+    .grid h3 {
+        font-size: 1.2rem;
+    }
+
+    .card h3 {
+        font-size: 1.4rem;
+    }
+
+    .card p {
+        font-size: 0.9rem;
+    }
+
+    .feature-img img {
+        width: 400px;
+    }
+
+    .feature-card {
+        gap: 20px;
+    }
+
+    .feature-grid {
+        gap: 20px;
+    }
+}
+
+@media (max-width: 820px) {
+    .feature-part {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .feature-heading h2 {
+        margin-bottom: 20px;
+    }
+
+    .feature-grid {
+        gap: 20px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .feature-card {
+        gap: 20px;
+        flex-direction: row;
+    }
+
+}
+
+@media (max-width: 460px) {
+    .feature-grid {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 30px;
+    }
+}
