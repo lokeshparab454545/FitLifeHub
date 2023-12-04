@@ -1,70 +1,27 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# FitLifeHub: 
 
-## Available Scripts
+Live Link : https://fitlifehub.netlify.app/
 
-In the project directory, you can run:
+A unique fitness website designed for those who find it challenging to stay consistent with their gym routine and health goals. This platform aims to motivate and guide users with customized workout videos for specific body parts, all accessible through the powerful RapidAPI integration.
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Key Features:
 
-### `npm test`
+Tailored Workouts for Every Body Part
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+No more guesswork! Our website provides customized workout videos targeting specific body parts, ensuring a comprehensive and effective fitness routine.
 
-### `npm run build`
+Procrastination-Buster Features
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Combat gym procrastination with features designed to motivate and engage users. From personalized workout reminders to achievement badges, we've got you covered.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+RapidAPI Integration
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Leverage the strength of RapidAPI to seamlessly search for body part-specific exercises and access a diverse range of workout videos. A vast library of exercises is at your fingertips, making it easy to create a personalized fitness plan.
 
-### `npm run eject`
+User-Friendly Interface
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+A clean and intuitive interface ensures a hassle-free user experience. Navigate effortlessly, discover new exercises, and track your progress with ease.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
